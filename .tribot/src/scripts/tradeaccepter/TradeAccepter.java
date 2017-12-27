@@ -41,8 +41,12 @@ public class TradeAccepter extends Script implements Arguments {
 		String scriptSelect = arg0.get("custom_input");		
 		String clientStarter = arg0.get("autostart");		
 		String raw = clientStarter != null ? clientStarter : scriptSelect;		
-		//input = TRIAL_ARG;
+		//raw = TRIAL_ARG;
 		raw = raw.toLowerCase();
+		handleArgs(raw);
+	}
+	
+	private void handleArgs(String raw) {
 		Misc.ps("Raw input: "+raw);
 		String[] split = raw.split(" ");
 		
@@ -53,7 +57,6 @@ public class TradeAccepter extends Script implements Arguments {
 				}
 			}
 		}
-				
 	}
 	
 	private void parseArgs(String input, Argument arg) {
