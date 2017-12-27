@@ -1,4 +1,3 @@
-/bin/
-/nextDate
-/.project
-/.classpath
+/*
+/*/
+!/src/

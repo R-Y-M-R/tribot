@@ -95,5 +95,4 @@ public class TradeAccepter extends Script implements Arguments {
 		}
 
 	}
-
 }
