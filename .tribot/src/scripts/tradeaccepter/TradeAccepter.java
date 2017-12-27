@@ -10,11 +10,11 @@ import org.tribot.script.interfaces.Arguments;
 
 import scripts.util.Misc;
 
-@ScriptManifest(authors = { "Crimson", "The Boys" }, 
+@ScriptManifest(authors = { "Crimson" }, 
 	category = "Tools",
 	name = "Trade Accepter",
 	version = 1.00, 
-	description = "Accepts trades.", 
+	description = "Accepts trades!", 
 	gameMode = 1)
 
 public class TradeAccepter extends Script implements Arguments {
