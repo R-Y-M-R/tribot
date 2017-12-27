@@ -20,7 +20,7 @@ import scripts.util.Misc;
 public class TradeAccepter extends Script implements Arguments {
 	
 	//Constants
-	public static final String TRIAL_ARG = "pos:3533:2222:0 bankall:true world:316 maxtrade:15";
+	public static final String TRIAL_ARG = "pos:3533:2222:0 bankall:true world:316 maxtrade:15"; //what a user could input
 	
 	//Variables
 	private RSTile idlePos;
